@@ -1,0 +1,8 @@
+integer number, 0;
+integer finall, 10;
+integer divident, 2;
+integer zero;
+LOOP;
+ADD (number, 1);
+IF number MOD divident EQ zero THEN PRINT number;
+IF number LESS finall THEN GOTO LOOP;
